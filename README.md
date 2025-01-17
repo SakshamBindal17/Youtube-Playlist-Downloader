@@ -1,16 +1,16 @@
 # YouTube Playlist Downloader
 
-The **YouTube Playlist Downloader** is a Python-based tool that simplifies downloading entire YouTube playlists in a **sequential and organized manner**. Users can easily extract video URLs, process them, and download all videos in a **serializable way**, ensuring each video is downloaded one by one. The tool automatically saves each video with a **serial number corresponding to its order in the playlist**, making it easy to keep track of the original sequence. It also includes robust error handling by generating an Excel file that highlights undownloaded videos, making it easy to identify and reattempt any failed downloads. This project is designed to provide a seamless and automated experience for managing YouTube playlists efficiently.
+The **YouTube Playlist Downloader** is a Python-based tool that simplifies downloading entire YouTube playlists in a **sequential and organized manner**. Users can easily extract video URLs, process them, and download all videos in a **serializable way**, ensuring each video is downloaded individually. The tool automatically saves each video with a **serial number corresponding to its order in the playlist**, making it easy to keep track of the original sequence. It also includes robust error handling by generating an Excel file highlighting undownloaded videos, making it easy to identify and reattempt any failed downloads. This project is designed to provide a seamless and automated experience for managing YouTube playlists efficiently.
 
 ## Features  
 
 - Downloads videos from YouTube playlists in a **sequential order**.  
 - Saves videos with a **serial number corresponding to their position in the playlist**. 
-- Creates a folder with the same name as the CSV file where all the downloaded videos are stored. 
-- Robust retry mechanism to handle download errors effectively.  
+- Creates a folder with the **same name as the CSV file** where all the downloaded videos are stored. 
+- Robust **retry mechanism** to handle download errors effectively.  
 - Supports videos with resolutions up to **1080p**, ensuring high-quality downloads.
 - After downloading all the videos, the terminal will display a message indicating whether all videos were downloaded successfully.
-- If any videos failed to download, the terminal will list them, and moreover these videos will be highlighted in red in the generated Excel file for easy identification.
+- If any videos fail to download, the terminal will list them. Moreover, these videos will be highlighted in red in the generated Excel file for easy identification.
 
 ## Prerequisites  
 
@@ -107,11 +107,62 @@ Below are some screenshots that demonstrate the key steps in using the **YouTube
 
    ![Excel Report](path-to-screenshot5.png)
 
-## License  
+## Screenshots
 
-The **YouTube Playlist Downloader** is open-source software released under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute this software, subject to the terms and conditions of the license.
+### Step 1: Download the Extension  
+   Screenshot showing the **YouTube URL Extractor** extension page on the Chrome Web Store.  
+   [Extension Link](https://chromewebstore.google.com/detail/youtube-url-extractor/jmilibpbdpajjnabchfpfmmmjgbimefo)
+   
+   ![Extension Webapge](Screenshots/Screenshot-01.png)  
 
-### License Summary:
-- **Permissions**: You are allowed to use, modify, and distribute the software for personal or commercial purposes.
-- **Limitations**: The software is provided "as-is" without any warranties. The authors are not liable for any damages arising from its use.
-- **Conditions**: You must include the copyright notice and license in any copies or substantial portions of the software.
+### Step 2: Extracting URLs using the YouTube URL Extractor Extension and Export the CSV File 
+   Screenshots showing the YouTube Playlist page and the **YouTube URL Extractor** extension with the 'Extract URLs' and 'Export CSV' buttons. 
+
+   ![Youtube Playlist Webpage](Screenshots/Screenshot-02.png)  
+   
+   ![Opening the extension](Screenshots/Screenshot-03.png)  
+   
+   ![Extract URLs button clicked](Screenshots/Screenshot-04.png)  
+   
+   ![Export CSV button clicked](Screenshots/Screenshot-05.png)  
+
+### Step 3: Renaming the CSV File  
+   Screenshot showing the downloaded CSV file, renamed to `Sample Playlist - Saksham Bindal.csv` (or any name you prefer for the folder where videos will be downloaded).  
+
+   ![Renaming CSV](Screenshots/Screenshot-06.png)
+
+### Step 4: Opening the CSV File
+   Screenshot showing the downloaded CSV file.
+
+   ![Opened CSV File](Screenshots/Screenshot-07.png)
+
+### Step 5: Copying the path of a file
+   Screenshot showing the **Copy as path** option in the right-click menu.
+
+   ![Copy as path](Screenshots/Screenshot-08.png)
+
+### Step 6: Running the Python Script  
+   Screenshot showing the terminal window where the user is prompted to paste the CSV file path.
+
+   ![Running Script](Screenshots/Screenshot-09.png)
+
+   ![Pasting the path](Screenshots/Screenshot-10.png)
+
+### Step 7: Download Process in Progress  
+   Screenshot of the download process running in the terminal, showing the progress of each video being downloaded sequentially.
+
+   ![Download Progress](Screenshots/Screenshot-11.png)
+   
+   ![Download Complete](Screenshots/Screenshot-12.png)
+
+### Step 8: Final Excel Report  
+   Screenshot of the final Excel report generated, with all downloaded videos listed and failed videos highlighted in red.
+
+   ![Excel Report](Screenshots/Screenshot-13.png)
+   
+   ![Excel Report](Screenshots/Screenshot-15.png)
+
+### Step 9: Downloaded videos folder 
+   Screenshot of the final downloaded videos folder with the names of the videos downloaded with a serial number.
+
+   ![Folder](Screenshots/Screenshot-14.png)
