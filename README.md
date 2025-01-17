@@ -16,7 +16,7 @@ The **YouTube Playlist Downloader** is a Python-based tool that simplifies downl
 
 Before using the **YouTube Playlist Downloader**, ensure the following:  
 
-- Install the required extension, [YouTube URL Extractor by Coral Labs](https://chromewebstore.google.com/detail/youtube-url-extractor/jmilibpbdpajjnabchfpfmmmjgbimefo), from the Chrome Web Store.  
+- Install the required extension, [YouTube URL Extractor](https://chromewebstore.google.com/detail/youtube-url-extractor/jmilibpbdpajjnabchfpfmmmjgbimefo) by Coral Labs, from the Chrome Web Store.  
 - **Python 3.7+** is installed on your system.  
   To update Python to the latest version via `pip`, use the following command:  
   ```bash
