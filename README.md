@@ -18,11 +18,6 @@ Before using the **YouTube Playlist Downloader**, ensure the following:
 
 - Install the required extension, [YouTube URL Extractor](https://chromewebstore.google.com/detail/youtube-url-extractor/jmilibpbdpajjnabchfpfmmmjgbimefo) by Coral Labs, from the Chrome Web Store.  
 - **Python 3.7+** is installed on your system.  
-  To update Python to the latest version via `pip`, use the following command:  
-  ```bash
-  python -m pip install --upgrade pip
-  python -m pip install python==3.7
-  ```
 -Install the required dependencies by running the following command in your terminal:
   ```bash
   pip install -r requirements.txt
@@ -77,35 +72,6 @@ The **YouTube Playlist Downloader** is designed to handle errors gracefully. Her
 
 5. **File Overwrite Protection**:
    - The script ensures that videos are not overwritten if they already exist in the destination folder. It skips any video that is already downloaded, preventing unnecessary re-downloads.
-
-## Screenshots  
-
-Below are some screenshots that demonstrate the key steps in using the **YouTube Playlist Downloader**:
-
-1. **Step 1: Extracting URLs using the YouTube URL Extractor Extension**  
-   Screenshot showing the YouTube Playlist page with the extension icon and the 'Extract URLs' button clicked.
-   
-   ![Extracting URLs](path-to-screenshot1.png)
-
-2. **Step 2: Renaming the CSV File**  
-   Screenshot showing the renamed CSV file (e.g., `Youtube_playlist.csv`) after downloading the URLs from the extension.
-
-   ![Renaming CSV](path-to-screenshot2.png)
-
-3. **Step 3: Running the Python Script**  
-   Screenshot showing the terminal where the user is prompted to paste the CSV file path.
-
-   ![Running Script](path-to-screenshot3.png)
-
-4. **Step 4: Download Process in Progress**  
-   Screenshot of the download process running in the terminal, showing the progress of each video being downloaded.
-
-   ![Download Progress](path-to-screenshot4.png)
-
-5. **Step 5: Final Excel Report**  
-   Screenshot of the final Excel report with downloaded videos and failed ones highlighted in red.
-
-   ![Excel Report](path-to-screenshot5.png)
 
 ## Screenshots
 
