@@ -20,7 +20,7 @@ Before using the **YouTube Playlist Downloader**, ensure the following:
 - **Python 3.7+** is installed on your system.
 - Install the required dependencies by running the following command in your terminal:
   ```bash
-  pip install -r requirements.txt
+  pip install -r requirements.txt --user
   ```
 - Ensure the YouTube playlist to be downloaded is public (if it's self-made).
 
