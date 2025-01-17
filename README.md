@@ -45,7 +45,7 @@ To use the **YouTube Playlist Downloader**, follow these steps:
    
 4. **Rename the CSV file**:
    - Go to the folder where the CSV file was downloaded and rename it to whatever you wish the folder (where the videos will be downloaded) to be named.  
-     - For example, rename `youtube_videos.csv` to `Youtube_playlist.csv` (this will be the name of the folder where the videos will be saved).
+   - For example, rename `youtube_videos.csv` to `Youtube_playlist.csv` (this will be the name of the folder where the videos will be saved).
    
 5. **Copy the file path**:
    - Right-click on the renamed CSV file and select **Copy as path**. This will copy the file path to your clipboard.
